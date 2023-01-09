@@ -1,0 +1,63 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+}
+
+/* css till index */
+h1 {
+    display: flex;
+    justify-content: center;
+color: antiquewhite;
+font-size: 2cm;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 61%;
+    background-color: rgb(36, 36, 36);
+    font-size: 1cm;
+    height: 300px;
+    width: 100%;
+}
+
+.icon_index { 
+    margin-top: 60px;
+    border-radius: 50px;
+    width: 285px;
+    height: auto;
+}
+
+.icon_index:hover { 
+   box-shadow: 5px 5px black;
+}
+
+#bg{
+    
+    z-index: -1;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    
+}
+
+/* css till restaurangen */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    max-width: 500px;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+
+
+  .container {
+    padding: 105px 105px;
+}
+
+/* css till om oss */
+
+
