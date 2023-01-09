@@ -42,22 +42,116 @@ footer {
 }
 
 /* css till restaurangen */
+#restaurang_bg {
+    background-color: rgba(102, 121, 151, 1);
+}
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-    max-width: 500px;
+    height: 700px;
+    width: 550px;
     border-radius: 50px;
+    display: inline-block;
     margin: auto;
     text-align: center;
     font-family: arial;
+    background-color:rgba(146, 190, 228, 1);
+
 }
 
-
-
-  .container {
+.container {
     padding: 105px 105px;
 }
 
+.card_picture {
+    width: 250px;
+    height: auto;
+}
+
+#korv_pommes {
+    height: 172px;
+    width: auto;
+}
+
+/* css till djuren */
+
+
+#grid_wrapper {
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr);
+    grid-template-rows: 100px minmax(700px, 1fr);
+    height: 100vh;
+    grid-template-areas: 
+    "he he"
+    "ar se";
+}
+
+header {
+    background: rgba(146, 190, 228, 1);
+    grid-area: he;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article {
+    background-color: rgba(179, 229, 204, 1);
+    grid-area: ar;
+    
+}
+
+section{
+    background-color: rgba(194, 178, 128, 1);
+    grid-area: se;
+
+}
+
+.article_img {
+    width: 650px;
+    height: auto;
+}
+
+.section_img {
+    
+    width: 750px;
+}
+
+#rubrik_djuren {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 /* css till om oss */
 
+#body_om_oss {
+    text-align: center;
+    background-color: rgba(1, 50, 31, 1);
+}
 
+#rubrik_om_oss {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card_om_oss {
+    display: flex;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 1);
+    height: 750px;
+    width: 1500px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color:rgba(0, 134, 64, 1);
+
+
+}
+
+.personal_info {
+    
+    border-radius: 5%;
+    width: 15%;
+    height: auto;
+}
